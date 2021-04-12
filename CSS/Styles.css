@@ -130,7 +130,7 @@ a {
   margin-bottom: 0.5rem;
 }
 .searchHeaderText {
-  margin-top: 0;
+  margin-top: 0rem;
 }
 .searchForm {
   display: inline-flex;
@@ -388,7 +388,7 @@ a {
   height: 8.75rem;
 }
 
-@media (max-width: 1439px) {
+@media (max-width: 1023px) {
   .hosting {
     grid-template-columns: 1fr;
     row-gap: 2rem;
