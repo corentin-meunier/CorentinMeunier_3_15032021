@@ -2,9 +2,9 @@
   --main-bg-color: #0065FC;
 }
 
-.gris {color: #F2F2F2; background-color: #F2F2F2;}
-.ciel {color: #DEEBFF; background-color: #DEEBFF;}
-.bleu {color: #0065FC; background-color: #0065FC;}
+.gris {color: #F2F2F2;}
+.ciel {color: #DEEBFF;}
+.bleu {color: #0065FC;}
 
 body {
   font-family: 'Raleway', sans-serif;
