@@ -126,6 +126,16 @@ a {
   box-sizing: border-box;
 }
 
+@media screen and (max-width : 769px) {
+  .main {
+    padding: 0rem
+  }
+  .hostingPopular {
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+}
+
 .searchHeaderTitle {
   margin-bottom: 0.5rem;
 }
@@ -401,6 +411,18 @@ a {
   }
   .hostingPopularTitle {
     grid-column: 1/-1;
+  }
+  .hostingMain {
+    background-color: white;
+  }
+  .hostingMainCardFigureCaptionTitle {
+    font-size: 90%;
+  }
+  .hostingMainCardDesc {
+    font-size: 80%;
+  }
+  .hostingMainCardGrade {
+    width: 100%;
   }
 }
 @media (min-width: 925px) {
