@@ -130,10 +130,6 @@ a {
   .main {
     padding: 0rem
   }
-  .hostingPopular {
-    margin-left: -20px;
-    margin-right: -20px;
-  }
 }
 
 .searchHeaderTitle {
@@ -291,6 +287,13 @@ a {
   background-color: #F2F2F2;
   border-radius: 1.5rem;
   padding: 2rem;
+}
+@media screen and (max-width : 769px) {
+  .hostingPopular {
+    margin-left: -8px;
+    margin-right: -8px;
+    border-radius: 0rem;
+  }
 }
 
 .hosting {
